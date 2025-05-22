@@ -133,8 +133,8 @@ const taskService = new TaskService(userService);
 
 
 const users = [
-  userService.createUser("Brian", 38),
-  userService.createUser("Max", 27),
+  userService.createUser("Brian", 23),
+  userService.createUser("Max", 23),
 
 ];
 
