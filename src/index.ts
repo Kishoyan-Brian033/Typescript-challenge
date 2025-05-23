@@ -1,3 +1,4 @@
+
 // index.ts
 interface IUser {
   id: number;
@@ -129,6 +130,7 @@ function showUsers() {
       <span class="user-name">${user.name}</span>
       <span class="user-email">${user.email}</span>
        <button class="delete-user-btn" data-id="${user.id}">Delete</button>
+       <button class="update-user-btn" data-id="${user.id}">Upadate</button>
       
     `;
     userList.appendChild(div);
@@ -168,7 +170,8 @@ function showTasks() {
       <span class="task-title">${task.title}</span>
       <span class="task-desc">${task.description}</span>
       <span class="assigned-to">Assigned To: ${task.assignedTo || "None"}</span>
-       <button class="delete-task-btn" data-id="${task.id}">Delete</button>
+       <button class="delete-task-btn" data-id="${task.id}">Delete </button>
+       <button class="upadate-task-btn" data-id="${task.id}">Update</button>
     `;
     tasksList.appendChild(div);
   });
