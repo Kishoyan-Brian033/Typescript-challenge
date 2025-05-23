@@ -8,7 +8,10 @@
 </head>
 <body>
     <div class="main-container">
-        <h1>User Management System</h1>
+        <div class="header">
+            <h2>Task management system</h2>
+        </div>
+        <div class="main">
 
         <div class="user-container">
             <div class="container">
@@ -40,12 +43,13 @@
                 <input type="text" name="name" placeholder="Enter Task Title" id="task-title" />
                 <textarea id="description" placeholder="Description"></textarea>
                 <div class="all-btns">
-                    <button id="add-task">Create Task</button>
+                    <button id="add-task">Add to Task list</button>
                     
                 </div>
             </div>
 
             <div class="form">
+                <h4>Assign Task</h4>
                 <input type="number" id="assign-task" placeholder=" Enter User ID">
                 <input type="number" id="assign-task" placeholder="Enter Task Id">
                
@@ -59,6 +63,8 @@
                     <button id="unassign-task">Unassign Task</button>
                 </div>
         </div>
+
+            </div>
     </div>
 
     <script src="./dist/index.js"></script>

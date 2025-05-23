@@ -14,11 +14,29 @@ body {
 }
 
 .main-container {
-    max-width: 700px;
+    max-width: 60%;
+    gap: 5px;
     margin: 0 auto;
     background-color: #eee;
     padding: 20px;
     box-shadow: 0 0 10px rgba(235, 229, 229, 0.1);
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    max-width: 100%;
+    gap: 5px;
+    margin: 0 auto;
+    background-color: #eee;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(235, 229, 229, 0.1);
+    display: flex;
+    justify-content: center;
 }
 
 h1{
@@ -28,7 +46,7 @@ h1{
     align-items: center;
 }
  h2 {
-    color: #eee;
+    color: #000;
     margin-bottom: 20px;
 }
 h3{
@@ -37,6 +55,7 @@ h3{
 
 .user-container, .task-container {
     background-color: inherit;
+    
     border: 1px solid #333;
     padding: 20px;
     margin-bottom: 30px;
